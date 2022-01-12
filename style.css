@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.port__parent{
+    width: 75%;
+    height: 110vh;
+    margin: auto;
+    background: #000;
+    display: flex;
+}
+.port__left{
+    width: 25%;
+    height: 100%;
+    background: #e1d8cf;
+}
+.port__left img{
+    width: 150px;
+    height: 150px;
+    margin: 35px 70px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+/* You can remove these code below*/
+:root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  }*{box-sizing:border-box;}input,button,textarea{border:0;outline:none;}
+  /* Main code */
+  
+          .line-loading {
+            width: 100%;
+            height: 0.5rem;
+            position: relative;
+            margin: 0 auto;
+          }
+          .line-loading:before {
+            content: "";
+            position: absolute;
+            right: auto;
+            left: 0;
+            height: 100%;
+            background-color: var(--primary);
+            animation: lineLoading 1s forwards infinite linear;
+          }
+
+          @keyframes lineLoading {
+            0% {
+              right: 100%;
+            }
+            50% {
+              right: 0;
+              left: 0;
+            }
+            100% {
+              right: 0;
+              left: 100%;
+            }
+          }
+.port__left .information{
+    text-align: center;
+    
+}
+.information h2{
+    background: #373741;
+    color: white;
+    height: 30px;
+    margin: auto;
+}
+
+.information p{
+    text-align: justify;
+    line-height: 20px;
+    margin: 15px 20px;
+}
+.contact__web{
+    margin: 15px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.contact__web p{
+    margin-bottom: 13px;
+}
+.contact__web i{
+    color: #335384;
+}
+.contact__web span{
+    margin-left: 5px;
+}
+.contact .contact__web a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.port__right{
+    width: 75%;
+    height: 100%;
+    background:white;
+}
+.port__right .header__name{
+    width: 100%;
+    background: #373741;
+    height: 150px;
+}
+.header__name h1{
+    text-align: center;
+    transform: translateY(100%);
+    color: #e1d8cf;
+    letter-spacing: 4px;
+}
+.header__name h4{
+    text-align: center;
+    transform: translateY(250%);
+    color: #e1d8cf;
+    letter-spacing: 2px;
+}
+.header__body{
+    margin: 15px 60px;
+    
+}
+.header__body .title h2{
+    background: #373741;
+    color: white;
+    height: 40px;
+    width: 370px;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.information p{
+    margin-left: 25px;
+}
+.title__content{
+    margin-left: 15px;
+}
+.title__content p{
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+/* You can remove these code below*/
+:root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  }*{box-sizing:border-box;}input,button,textarea{border:0;outline:none;}
+  /* Main code */
+  
+          .bar {
+            margin: -15px auto;
+            width: 95%;
+            height: 25px;
+            border-radius: 5rem;
+            border: 1px solid #eee;      
+        }
+
+          .bar-percent {
+            height: 100%;
+            background-color: #07a787;
+            border-radius: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
